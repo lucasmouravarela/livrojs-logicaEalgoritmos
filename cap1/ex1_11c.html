@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<script>
+    let produto = Number(prompt('Preço do produto é de R$: '));
+    let desconto = (produto * 0.10);
+    let avista = produto - desconto;
+    let parcela = produto / 3;
+    alert(`Para pagamentos Á Vista o valor é de R$${avista.toFixed(2)}.\nPara pagamentos parcelados em 3x, a parcela sai por R$${parcela.toFixed(2)}.`)
+</script>
