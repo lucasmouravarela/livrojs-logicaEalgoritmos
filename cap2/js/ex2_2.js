@@ -5,7 +5,7 @@ function converterDuracao() {
     var outTitulo = document.getElementById("outTitulo");
     var outDuracao = document.getElementById("outDuracao");
 
-    // obtém conteúdos dos campos de entrada
+    // capturando os valores dos campos de entrada
     var titulo = inTitulo.value;
     var duracao = Number(inDuracao.value);
 

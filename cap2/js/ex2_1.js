@@ -1,6 +1,6 @@
 // declara a função mostrarOla
 function mostrarOla() {
-    // obtém o conteúdo do campo (atráves do id=) nome
+    // captura o valor do campo (atráves do id=) nome
     var nome = document.getElementById("nome").value;
     // exibe no parágrafo (resposta): "Olá " e o nome informado
     document.getElementById("resposta").textContent = "Olá " + nome;
