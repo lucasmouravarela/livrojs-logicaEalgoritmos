@@ -2,6 +2,7 @@ const inputProduto = document.getElementById("inProduto");
 const inputPreco = document.getElementById("inPreco");
 const outputPromo = document.getElementById("outPromocao");
 const outTerceiraUnid = document.getElementById("outTerceiraUnidade");
+const btPromo = document.getElementById("btPromocao");
 
 function verPromocao() {
   let produto = inputProduto.value;
@@ -17,5 +18,4 @@ function verPromocao() {
     2
   )}`;
 }
-var btPromo = document.getElementById("btPromocao");
 btPromo.addEventListener("click", verPromocao);
