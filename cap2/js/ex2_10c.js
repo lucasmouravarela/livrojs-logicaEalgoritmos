@@ -18,4 +18,5 @@ function verPromocao() {
     2
   )}`;
 }
+
 btPromo.addEventListener("click", verPromocao);
