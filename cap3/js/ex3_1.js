@@ -15,9 +15,16 @@ function calcularMedia() {
     if (media >= 7) {
         outMedia.textContent = `Médias das Notas: ${media}`;
         outSituacao.textContent = `Parabéns ${nome}, Você foi aprovado!`;
+        outSituacao.style.color = '#008000';
+    } else if (media >= 4) {
+        outMedia.textContent = `Médias das Notas: ${media}`;
+        outSituacao.textContent = 'Atenção ' + nome + ',Você está em exame';
+        outSituacao.style.color = 'blue';
+    
     } else {
         outMedia.textContent = `Médias das Notas: ${media}`;
         outSituacao.textContent = `${nome}, Você foi reprovado!`;
+        outSituacao.style.color = '#FF0000';
     }
 }
 
