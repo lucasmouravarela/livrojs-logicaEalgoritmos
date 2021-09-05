@@ -18,7 +18,7 @@ function calcularPeso() {
     return;
   }
   if (altura == 0 || isNaN(altura)) {
-    alert("Prfavor, informe a altura corretamente...");
+    alert("Porfavor, informe a altura corretamente...");
     inAltura.focus();
     return;
   }
