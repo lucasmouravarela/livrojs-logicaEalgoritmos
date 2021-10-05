@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,21 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Exemplo 4.3</title>
 </head>
+
 <body>
     <script>
-        // solicita o número e repete a leitura enquanto inválido
-        do {
+        // solicita o número 
+        do { 
             var num = Number(prompt('Número: '));
-            if (num == 0 || isNaN(num)){
+            if (num == 0 || isNaN(num)) { // valida o número
                 alert('Digite um número válido...')
             }
-        } while (num == 0 || isNaN(num));
+        } while (num == 0 || isNaN(num)); // e repete a leitura ENQUANTO inválido
 
         // declara e inicializa variável que irá exibir pares
-        let pares = "Pares entre 1 e " + num + ": ";
+        let pares = `Pares entre 1 e ${num}: `;
 
-        // isola o primeiro par (para evitra última virgula)
+        // isola o primeiro par (para evitar última virgula)
         if (num > 1) {
             pares = pares + "2";
         }
@@ -34,4 +36,5 @@
         alert(pares);
     </script>
 </body>
+
 </html>
