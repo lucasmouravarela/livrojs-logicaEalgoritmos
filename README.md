@@ -1,7 +1,3 @@
-Aqui está um README introdutório para o novo repositório solicitado:
-
----
-
 # Lógica de Programação e Algoritmos com JavaScript
 
 Este repositório contém o acompanhamento dos exercícios realizados a partir do livro **Lógica de Programação e Algoritmos com JavaScript** da Editora Novatec. Ele é um espaço para prática e revisão dos conceitos de lógica de programação e algoritmos utilizando JavaScript.
